@@ -1,0 +1,39 @@
+.default {
+    outline: none;
+    border: none;
+    background: rgb(255, 38, 0);
+}
+
+/*.red {*/
+/*    display: none;*/
+/*}*/
+
+.button {
+    width: 150px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, rgba(56, 0, 23, 0.76) 0%, rgba(33, 0, 253, 0) 51%, rgba(56, 0, 23, 0.76) 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.button:hover {
+    background-position: right center;
+    color: rgb(63, 12, 12);
+}
+
+.button:disabled {
+    background-image: linear-gradient(to right, rgba(56, 0, 23, 0.76) 0%, rgba(33, 0, 253, 0) 51%, rgba(56, 0, 23, 0.76) 100%);
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.button:disabled:hover {
+    z-index: -1;
+}

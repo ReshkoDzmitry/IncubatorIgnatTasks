@@ -1,0 +1,30 @@
+.input {
+    margin: 20px;
+    padding: 5px;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 38, 0);
+}
+
+.superInput {
+    margin: 20px;
+    padding: 5px;
+}
+
+.superInput:focus {
+    border: none;
+    border-bottom: 2px solid rgb(255, 38, 0);
+
+}
+
+.errorInput {
+    margin: 5px;
+}
+
+.error {
+    color: rgb(255, 38, 0);
+    font-weight: bold;
+}
