@@ -1,7 +1,91 @@
-.someClass {
+.input {
+    height: 20px;
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+}
 
+input:focus {
+    border: none;
+    border-bottom: #ff2600 solid 2px;
+    width: 200px;
+
+    outline: none;
+    padding: 5px;
+}
+
+.greeting {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px;
 }
 
 .error {
-    border: 1px solid red;
+    color: red;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.errorInput {
+    width: 200px;
+    outline: none;
+    padding: 5px;
+}
+
+.errorInput::placeholder{
+    color: #ff2600;
+}
+
+.requiredToFill {
+    color: red;
+    font-size: 18px;
+    padding: 0 5px
+}
+
+.count {
+    font-weight: bold;
+}
+
+.countWrapper {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 111, 0);
+    background-color: rgba(255, 111, 0, 0.3);
+    width: 200px;
+    text-align: center;
+}
+
+.button {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 111, 0, 0.71);
+    border: none;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.button:disabled {
+    color: rgba(47, 79, 79, 0.4);
+    background-color: rgba(255, 111, 0, 0.3);
+    font-weight: normal;
+}
+
+.button:hover {
+    background-color: rgb(255, 108, 0);
+    width: 60px;
+}
+
+.button:disabled:hover {
+    color: rgba(47, 79, 79, 0.4);
+    background-color: rgba(255, 111, 0, 0.3);
+    font-weight: normal;
+    transition: none;
+    width: 50px;
+    font-size: 16px;
 }
