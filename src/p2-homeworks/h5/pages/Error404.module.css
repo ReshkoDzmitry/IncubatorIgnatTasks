@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.errorNumber {
+    font-size: 100px;
+    padding: 50px 0 0 10px;
+}
+
+.errorName {
+    font-size: 40px;
+    padding: 10px 0
+}
+
+.badge {
+    font-size: 30px;
+    padding: 10px 0
+}
