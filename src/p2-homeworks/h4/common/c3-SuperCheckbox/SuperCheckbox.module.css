@@ -8,9 +8,14 @@
     background-position: center;
 }
 
+.checkbox:focus {
+    border: none;
+}
+
 .checkbox:checked {
     appearance: none;
     background-image: url('checkboxChecked20x20.png');
+    background-repeat: no-repeat;
 }
 
 label {
