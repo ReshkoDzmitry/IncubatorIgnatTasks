@@ -9,11 +9,15 @@
 }
 
 .checkbox:focus {
-    border: none;
+    width: 18px;
+    height: 18px;
+    margin-top: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-position: center;
 }
 
 .checkbox:checked {
-    appearance: none;
     background-image: url('checkboxChecked20x20.png');
     background-repeat: no-repeat;
 }
